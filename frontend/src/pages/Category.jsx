@@ -7,7 +7,7 @@ function Category() {
   // https://tale-n83d.onrender.com
   useEffect(() => {
     async function fetchData() {
-      const response = await fetch(`http://localhost:3000/api/id/${id}`)
+      const response = await fetch(`https://tale-1.onrender.com/api/id/${id}`)
       const data = await response.json()
       setData(data)
     }
