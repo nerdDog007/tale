@@ -1,5 +1,5 @@
 async function getMovies(genre){
-    const response = await fetch(`https://tale-1.onrender.com/api/${genre}`)
+    const response = await fetch(`https://tale-i3pc.onrender.com/api/${genre}`)
     if (!response.ok) {
       throw new Error('Network response was not ok')
     }
